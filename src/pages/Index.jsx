@@ -39,6 +39,9 @@ const Index = () => {
           </Button>
         </VStack>
       </Container>
+      <Box as="footer" bg={useColorModeValue("gray.200", "gray.700")} color={useColorModeValue("gray.700", "gray.200")} p={4} textAlign="center">
+        <Text>© 2024 Mark Zuckerberg. All Rights Reserved.</Text>
+      </Box>
     </Box>
   );
 };
